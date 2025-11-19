@@ -49,10 +49,37 @@ Overall, cholesterol alone is not a strong predictor of heart attacks and should
 
 <img width="695" height="509" alt="image" src="https://github.com/user-attachments/assets/50f4f581-40f9-42a4-a7ed-2c0213fb406c" />
 
+The boxplot shows that people who had a heart attack often reached a higher maximum heart rate than those who didn’t — but this doesn’t mean a high heart rate causes heart attacks.
+It may happen because:
+- High heart rates can come from exercise or stress tests.
+- Younger or fitter people naturally reach higher heart rates.
+- Heart rate may be recorded during the heart attack itself, which raises it.
+Low heart rate outliers:
+Some people in both groups have very low maximum heart rates. While a low rate can mean good fitness, it may also indicate poor fitness or blocked arteries.
 
+Conclusion:
+Maximum heart rate alone is not a reliable indicator of heart attack risk. It’s more useful when combined with other factors like age, blood pressure, ECG results, and medical history.
 
+<img width="573" height="433" alt="image" src="https://github.com/user-attachments/assets/d95166c3-28b7-4d0b-b85b-9b655f5b8492" />
+
+- Fixed defect type of thalassemia is strongly associated with heart attacks.
+- People with normal or reversible types seem less likely to have heart attacks.
+- Having no thalassemia doesn't clearly impact risk, since both groups are similar.
+
+Conclusion: Thalassemia type, especially fixed defect, could be a significant factor when assessing heart attack risk and should be considered in diagnosis or prediction models.
+
+<img width="571" height="433" alt="image" src="https://github.com/user-attachments/assets/916a827b-597c-4838-bc98-9883228ebb54" />
+
+- Downsloping ST slope is the most risky and highly associated with heart attacks in this case.
+- Flat slope is more common in people without heart attacks but can still carry some risk.
+- Upsloping appears safest, with most individuals not experiencing heart attack but very close to "yes" plot so still needs to be considered.
+
+Medically, downsloping ST segments often indicate ischemia or serious heart issues, so this aligns with clinical knowledge also. 
 
 ### Phase 5: Visualize the correlation matrix using the HeatMap
+
+<img width="924" height="842" alt="image" src="https://github.com/user-attachments/assets/87373461-2ae3-406b-99a0-22421f9ebdaa" />
+
 ### Phase 6: Logistic Regression
 ### Phase 7: Conclusion
 
