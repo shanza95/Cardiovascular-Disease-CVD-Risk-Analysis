@@ -80,7 +80,32 @@ Medically, downsloping ST segments often indicate ischemia or serious heart issu
 
 <img width="924" height="842" alt="image" src="https://github.com/user-attachments/assets/87373461-2ae3-406b-99a0-22421f9ebdaa" />
 
-### Phase 6: Logistic Regression
-### Phase 7: Conclusion
+| Feature                     | Correlation with Heart Attack | What it means                                                                                   |
+| --------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **max_heart_rate_achieved** | **+0.42**                     | Higher max heart rate is linked to heart attack.                                                        |
+| **exercise_induced_angina** | **-0.44**                     | Angina during exercise is linked, but here shows a negative number—could be a coding or data quirk.     |
+| **st_depression**           | **-0.43**                     | ST depression usually means risk, but negative here suggests complex relations.                         |
+| **num_major_vessels**       | **-0.41**                     | Number of blocked vessels shows a negative link—unexpected, might need data check.                      |
+| **thalassemia_type**        | **-0.53**                     | This blood disorder type shows negative correlation—might be about how data was encoded.                |
+| **age**                     | **-0.22**                     | Older age usually increases risk, but here shows a slight negative link—could be specific to the data. |
+
+
+### Phase 6: Logistic Regression --- ***Model Performance Summary***
+
+**Accuracy:** 87% — The model correctly predicts heart attack status in 87% of cases.
+**Precision:**
+ - No Heart Attack: 84% — When the model predicts “No,” it is correct 84% of the time.
+ - Yes Heart Attack: 90% — When the model predicts “Yes,” it is correct 90% of the time.
+**Recall:**
+  - No Heart Attack: 90% — The model correctly identifies 90% of patients without a heart attack.
+  -  Yes Heart Attack: 84% — The model correctly identifies 84% of patients with a heart attack.
+**F1-Score:** Balanced at 87% for both classes, reflecting a good trade-off between precision and recall.
+
+### Phase 7: Conclusion --- ***Integrated Insights on Heart Attack Risk***
+
+- **Strongest Indicators:** Max heart rate achieved, thalassemia type (especially fixed defects), and downsloping ST segments show the clearest associations with heart attacks, both in correlations and visual analysis.  
+- **Unexpected Correlations:** Features like exercise-induced angina, ST depression, and number of major vessels show negative correlations despite being medically relevant, likely due to dataset quirks or encoding issues.  
+- **Weak or Inconsistent Factors:** Age, cholesterol, and blood pressure show weak or counterintuitive correlations, indicating they are not reliable predictors on their own in this dataset.  
+- **Takeaway:** Heart attack risk is multifactorial; combining ECG results, blood disorders, heart rate, and lifestyle factors provides a more accurate and clinically meaningful assessment than any single feature alone.
 
 
