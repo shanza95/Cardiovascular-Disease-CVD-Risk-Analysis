@@ -96,9 +96,11 @@ Medically, downsloping ST segments often indicate ischemia or serious heart issu
 **Precision:**
  - No Heart Attack: 84% — When the model predicts “No,” it is correct 84% of the time.
  - Yes Heart Attack: 90% — When the model predicts “Yes,” it is correct 90% of the time.
+
 **Recall:**
   - No Heart Attack: 90% — The model correctly identifies 90% of patients without a heart attack.
   -  Yes Heart Attack: 84% — The model correctly identifies 84% of patients with a heart attack.
+
 **F1-Score:** Balanced at 87% for both classes, reflecting a good trade-off between precision and recall.
 
 ### Phase 7: Conclusion --- ***Integrated Insights on Heart Attack Risk***
